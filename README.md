@@ -20,34 +20,34 @@ sudo wget https://raw.githubusercontent.com/chberge/AxisUploader/master/axis-upl
 sudo chmod +x axis-uploader.sh
 
 
-### Edit settings 
+## Edit settings 
 
 sudo nano axis-uploader.sh
 
-# Set name to Channel-name without hashtag
+### Set name to Channel-name without hashtag
 channel="NameOnSlackChannel"
 
-# Your SlackBot token
+### Your SlackBot token
 token="SlackBotToken"
 
-# Interval in seconds for the script to run
+### Interval in seconds for the script to run
 interval="3600"
 
-# Filename for the file uploaded to Slack
+### Filename for the file uploaded to Slack
 file="ImageFilename"
 
-# IP-adress or URL for the camera
+### IP-adress or URL for the camera
 url="http://ip.adress.here"
 
-# Image-size
+### Image-size
 size="1280x720"
 
 
-### Run it
+## Run it
 
 sh axis-uploader.sh
 
 
-### Thats it!
+## Thats it!
 
 Congrats, you should now see pictures from your AxisCam in Slack :)
