@@ -24,6 +24,24 @@ sudo chmod +x axis-uploader.sh
 
 sudo nano axis-uploader.sh
 
+# Set name to Channel-name without hashtag
+channel="NameOnSlackChannel"
+
+# Your SlackBot token
+token="SlackBotToken"
+
+# Interval in seconds for the script to run
+interval="3600"
+
+# Filename for the file uploaded to Slack
+file="ImageFilename"
+
+# IP-adress or URL for the camera
+url="http://ip.adress.here"
+
+# Image-size
+size="1280x720"
+
 
 ### Run it
 
