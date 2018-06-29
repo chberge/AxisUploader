@@ -14,7 +14,6 @@ do
 
     wget "$url"/axis-cgi/jpg/image.cgi?resolution="$size" -O $file
     
-
 # Uploading to Slack
 
     curl -F file=@$file_a -F channels=#$channel -F token=$token https://slack.com/api/files.upload
