@@ -7,7 +7,7 @@ This script is ment for hardware on the same internal network as the Axis-camera
 
 ## How to use
 
-First, you need to create a SlackBot, so you get and SlackBot-Token. You will need this to access your workspace and channels. Continue with downloading the script, make some changes to it, 
+First, you need to create a SlackBot, so you get your SlackBot-Token. You will need this to access your workspace and channels. Continue with downloading the script, make some changes to it, 
 
 
 
