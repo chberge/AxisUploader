@@ -7,11 +7,13 @@ This script is ment for hardware on the same internal network as the Axis-camera
 
 ## How to use
 
-Download script to your unit, like a Raspberry Pi, Asus Tinker Board, or other hardware that can run shell.
+First, you need to create a SlackBot, so you get and SlackBot-Token. You will need this to access your workspace and channels. Continue with downloading the script, make some changes to it, 
+
+
 
 ### Download script
 
-sudo wget axis-uploader.sh
+sudo wget https://raw.githubusercontent.com/chberge/AxisUploader/master/axis-uploader.sh 
 
 ### Make runnable
 
@@ -20,7 +22,14 @@ sudo chmod +x axis-uploader.sh
 
 ### Edit settings 
 
-
 sudo nano axis-uploader.sh
 
 
+### Run it
+
+sh axis-uploader.sh
+
+
+### Thats it!
+
+Congrats, you should now see pictures from your AxisCam in Slack :)
