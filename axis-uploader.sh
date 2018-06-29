@@ -3,6 +3,7 @@
 #Replace with your settings
 channel="NameOnSlackChannel"
 token="SlackBotToken"
+interval="3600"
 file="ImageFilename"
 url="http://ip.adress.here"
 size="1280x720"
@@ -25,8 +26,8 @@ do
 
     rm $file
 
-# Waiting before running again (43200 (seconds) = 12 hours)
+# Waiting before running again (Interval should be set to seconds)
 
-    sleep 43200
+    sleep $interval
 
 done
