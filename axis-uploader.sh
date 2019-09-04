@@ -5,7 +5,7 @@ channel="NameOnSlackChannel"
 token="SlackBotToken"
 interval="3600"
 file="ImageFilename"
-url="http://ip.adress.here"
+url="http://username:password@ip.adress.here"
 size="1280x720"
 
 while true
